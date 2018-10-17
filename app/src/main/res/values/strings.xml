@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">游艇王</string>
+
+    <string name="str_main_feed">首页</string>
+    <string name="str_main_video">视频</string>
+    <string name="str_main_yacht">游艇王</string>
+    <string name="str_main_circle">社区</string>
+    <string name="str_main_my">我的</string>
+</resources>

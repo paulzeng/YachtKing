@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_white">
+
+    <RadioGroup
+        android:id="@+id/main_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_rbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_2"
+            android:drawableTop="@drawable/tab_feed_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4"
+            android:text="@string/str_main_feed"
+            android:textColor="@drawable/tab_tv_color_selector"
+            android:textSize="@dimen/tv_size_small" />
+
+        <RadioButton
+            android:id="@+id/inbox_rbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_2"
+            android:drawableTop="@drawable/tab_video_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4"
+            android:text="@string/str_main_video"
+            android:textColor="@drawable/tab_tv_color_selector"
+            android:textSize="@dimen/tv_size_small" />
+
+        <RadioButton
+            android:id="@+id/discover_rbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_2"
+            android:drawableTop="@drawable/tab_yacht_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4"
+            android:text="@string/str_main_yacht"
+            android:textColor="@drawable/tab_tv_color_selector"
+            android:textSize="@dimen/tv_size_small" />
+
+        <RadioButton
+            android:id="@+id/notify_rbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_2"
+            android:drawableTop="@drawable/tab_circle_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4"
+            android:text="@string/str_main_circle"
+            android:textColor="@drawable/tab_tv_color_selector"
+            android:textSize="@dimen/tv_size_small" />
+
+        <RadioButton
+            android:id="@+id/my_rbtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tab_height"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawablePadding="@dimen/dimen_2"
+            android:drawableTop="@drawable/tab_my_selector"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_4"
+            android:paddingTop="@dimen/dimen_4"
+            android:text="@string/str_main_my"
+            android:textColor="@drawable/tab_tv_color_selector"
+            android:textSize="@dimen/tv_size_small" />
+
+    </RadioGroup>
+
+</FrameLayout>
