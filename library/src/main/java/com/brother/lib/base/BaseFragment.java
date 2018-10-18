@@ -1,5 +1,6 @@
 package com.brother.lib.base;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,14 @@ public abstract class BaseFragment extends Fragment {
     protected View rootView;
     //视图绑定
     private Unbinder mUnbinder;
+    public BaseActivity fa;
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        fa = (BaseActivity) context;
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
