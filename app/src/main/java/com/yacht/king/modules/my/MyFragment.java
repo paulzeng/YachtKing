@@ -1,7 +1,10 @@
 package com.yacht.king.modules.my;
 
 import com.brother.lib.base.BaseFragment;
+import com.brother.lib.view.AppToolbar;
 import com.yacht.king.R;
+
+import butterknife.BindView;
 
 public class MyFragment extends BaseFragment {
     @Override
@@ -11,6 +14,5 @@ public class MyFragment extends BaseFragment {
 
     @Override
     protected void initView() {
-
     }
 }
