@@ -7,4 +7,6 @@
     <color name="line_color">#d9e3ed</color>
     <color name="tab_icon_normal_color">#999999</color>
     <color name="tab_icon_press_color">#2C2C2C</color>
+    <color name="green_color">#43bdc8</color>
+
 </resources>

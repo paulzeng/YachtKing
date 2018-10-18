@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_normal">
+
+        <ImageView
+            android:id="@+id/iv_feed"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_test" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_toRightOf="@+id/iv_feed">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="珐伊26不仅仅是运动器材，它还可以是一艘游艇" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资讯"
+                    android:padding="@dimen/dimen_2"
+                    android:textColor="@color/color_white"
+                    android:background="@drawable/bg_border_green"/>
+
+                <TextView
+                    android:id="@+id/tv_source"
+                    android:layout_toRightOf="@+id/tv_tag"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_2"
+                    android:text="游艇网" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_source"
+                    android:text="1分钟前"
+                    android:padding="@dimen/dimen_2"
+                    android:layout_marginLeft="@dimen/margin_normal"/>
+
+                <TextView
+                    android:id="@+id/tv_comment_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="400条评论"
+                    android:padding="@dimen/dimen_2"
+                    android:layout_marginLeft="@dimen/margin_normal"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:background="#eee" />
+</LinearLayout>
